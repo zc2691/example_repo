@@ -42,10 +42,6 @@ plot_df =
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
 
-```{r chunk_histogram}
-ggplot(plot_df, aes(x = x)) + geom_histogram()
-```
-
 # Section 4
 
 The chunk below creates a dataframe containing a sample of size 500 from a 
